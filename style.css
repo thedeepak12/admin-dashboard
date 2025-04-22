@@ -12,7 +12,7 @@ body {
 }
 
 .sidebar {
-    background-color: hsl(199, 89%, 44%);
+    background-color: #1992d4;
     height: 145vh;
     color: white;
 }
@@ -33,6 +33,7 @@ body {
 }
 
 .dashboard-logo {
+    fill: white;
     height: 45px;
     width: 45px;
 }
@@ -54,7 +55,55 @@ body {
     font-size: 19px;
 }
 
-svg {
+.home-svg {
+    fill: white;
+    height: 22px;
+    width: 22px;
+}
+
+.profile-svg {
+    fill: white;
+    height: 22px;
+    width: 22px;
+}
+
+.messages-svg {
+    fill: white;
+    height: 22px;
+    width: 22px;
+}
+
+.history-svg {
+    fill: white;
+    height: 22px;
+    width: 22px;
+}
+
+.tasks-svg {
+    fill: white;
+    height: 22px;
+    width: 22px;
+}
+
+.communities-svg {
+    fill: white;
+    height: 22px;
+    width: 22px;
+}
+
+.settings-svg {
+    fill: white;
+    height: 22px;
+    width: 22px;
+}
+
+.support-svg {
+    fill: white;
+    height: 22px;
+    width: 22px;
+}
+
+.privacy-svg {
     fill: white;
     height: 22px;
     width: 22px;
@@ -62,5 +111,56 @@ svg {
 
 .main {
     background-color: white;
-    height: 100vh;
+    height: 145vh;
+    display: grid;
+    grid-template-rows: 18% 82%;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 23px;
+    margin-top: 8px;
+}
+
+.search-icon {
+    fill: black;
+    height: 22px;
+    width: 22px;
+    margin-left: 23px;
+    margin-right: 20px;
+}
+
+.search {
+    width: 528px;
+    height: 25px;
+    background-color: #e2e8f0;
+    border: none;
+    border-radius: 50px;
+}
+
+.notification-icon {
+    fill: black;
+    height: 22px;
+    width: 22px;
+    margin-left: 100px;
+}
+
+.deepak-img {
+    height: 45px;
+    width: 45px;
+    margin-left: 30px;
+    margin-right: 20px;
+    border-radius: 250px;
+}
+
+.content {
+    background-color: #e2e8f0;
 }
