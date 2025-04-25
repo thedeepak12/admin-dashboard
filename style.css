@@ -354,3 +354,57 @@ body {
     height: 20px;
     width: 20px;
 }
+
+.ann-trend {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    margin-left: 20px;
+}
+
+.ann-card {
+    width: 245px;
+    height: 75%;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.ann-card h6 {
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    line-height: 0px;
+    padding: 0%;
+}
+
+.ann-card p {
+    font-size: 10px;
+    margin-bottom: 0%;
+}
+
+.announcements h4 {
+    margin-top: 40px;
+    padding-bottom: 0%;
+    line-height: 0.3px;
+    font-size: 18px;
+}
+
+.ann-text {
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 1%;
+}
+
+hr {
+    align-self: center;
+    justify-self: center;
+    border: 0.5px solid black;
+    opacity: 0.1;
+    width: 80%;
+}
