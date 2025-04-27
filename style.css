@@ -6,6 +6,11 @@ body {
     font-family: 'Roboto';
 }
 
+.main {
+    height: 145vh;
+    overflow: hidden;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 21% 79%;
@@ -357,13 +362,13 @@ body {
 
 .ann-trend {
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 35% 65%;
     margin-left: 20px;
 }
 
 .ann-card {
     width: 245px;
-    height: 75%;
+    height: 100%;
     background-color: white;
     border-radius: 10px;
     padding-top: 5px;
@@ -407,4 +412,52 @@ hr {
     border: 0.5px solid black;
     opacity: 0.1;
     width: 80%;
+}
+
+.trending h4 {
+    font-size: 18px;
+    margin-top: 130px;
+    line-height: 0px;
+}
+
+.trend-card {
+    width: 245px;
+    height: 54%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.trend-img-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+}
+
+.trend-img-text img {
+    border-radius: 250px;
+    width: 45px;
+}
+
+.trend-text {
+    margin-left: 20px;
+    line-height: 0px;
+}
+
+.trend-text h6 {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.trend-text p {
+    font-size: 13px;
+    margin-top: 20px;
 }
