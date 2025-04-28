@@ -52,6 +52,7 @@ body {
     font-weight: bolder;
     font-size: 18px;
     margin-bottom: 5px;
+    cursor: pointer;
 }
 
 .icon-text p {
@@ -144,6 +145,7 @@ body {
     width: 22px;
     margin-left: 23px;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 .search {
@@ -159,6 +161,7 @@ body {
     height: 22px;
     width: 22px;
     margin-left: 100px;
+    cursor: pointer;
 }
 
 .deepak-img {
@@ -220,6 +223,11 @@ body {
     border: none;
     border-radius: 50px;
     margin-left: 20px;
+    cursor: pointer;
+}
+
+.new-btn:hover {
+    background-color: hsl(201, 79%, 66%);
 }
 
 .upload-btn {
@@ -230,7 +238,13 @@ body {
     font-weight: bold;
     border: none;
     border-radius: 50px;
+    cursor: pointer;
 }
+
+.upload-btn:hover {
+    background-color: hsl(201, 79%, 66%);
+}
+
 
 .share-btn {
     width: 90px;
@@ -240,7 +254,11 @@ body {
     font-weight: bold;
     border: none;
     border-radius: 50px;
-    
+    cursor: pointer;
+}
+
+.share-btn:hover {
+    background-color: hsl(201, 79%, 66%);
 }
 
 .content {
@@ -348,16 +366,19 @@ body {
 .star-plus {
     height: 20px;
     width: 20px;
+    cursor: pointer;
 }
 
 .eye-plus {
     height: 20px;
     width: 20px;
+    cursor: pointer;
 }
 
 .fork {
     height: 20px;
     width: 20px;
+    cursor: pointer;
 }
 
 .ann-trend {
