@@ -38,9 +38,9 @@ body {
 }
 
 .dashboard-logo {
-    fill: white;
     height: 45px;
     width: 45px;
+    filter: invert(1);
 }
 
 .icon-text {
@@ -62,57 +62,57 @@ body {
 }
 
 .home-svg {
-    fill: white;
     height: 22px;
     width: 22px;
+    filter: invert(1);
 }
 
 .profile-svg {
-    fill: white;
     height: 22px;
     width: 22px;
+    filter: invert(1);
 }
 
 .messages-svg {
-    fill: white;
     height: 22px;
     width: 22px;
+    filter: invert(1);
 }
 
 .history-svg {
-    fill: white;
     height: 22px;
     width: 22px;
+    filter: invert(1);
 }
 
 .tasks-svg {
-    fill: white;
     height: 22px;
     width: 22px;
+    filter: invert(1);
 }
 
 .communities-svg {
-    fill: white;
     height: 22px;
     width: 22px;
+    filter: invert(1);
 }
 
 .settings-svg {
-    fill: white;
     height: 22px;
     width: 22px;
+    filter: invert(1);
 }
 
 .support-svg {
-    fill: white;
     height: 22px;
     width: 22px;
+    filter: invert(1);
 }
 
 .privacy-svg {
-    fill: white;
     height: 22px;
     width: 22px;
+    filter: invert(1);
 }
 
 .main {
@@ -140,7 +140,6 @@ body {
 }
 
 .search-icon {
-    fill: black;
     height: 22px;
     width: 22px;
     margin-left: 23px;
@@ -157,7 +156,6 @@ body {
 }
 
 .notification-icon {
-    fill: black;
     height: 22px;
     width: 22px;
     margin-left: 100px;
