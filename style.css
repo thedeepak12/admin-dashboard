@@ -61,6 +61,11 @@ body {
     font-size: 19px;
 }
 
+.icon-text:hover {
+    transform: scale(1.1) translateX(5px);
+    transition: transform 0.3s ease;
+}
+
 .home-svg {
     height: 22px;
     width: 22px;
@@ -147,6 +152,10 @@ body {
     cursor: pointer;
 }
 
+.search-icon:active {
+    transform: scale(0.9);
+}
+
 .search {
     width: 528px;
     height: 25px;
@@ -160,6 +169,10 @@ body {
     width: 22px;
     margin-left: 100px;
     cursor: pointer;
+}
+
+.notification-icon:active {
+    transform: scale(0.9);
 }
 
 .deepak-img {
@@ -212,6 +225,10 @@ body {
     margin-right: 30px;
 }
 
+.header-btns button {
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
 .new-btn {
     width: 90px;
     height: 36px;
@@ -225,8 +242,14 @@ body {
 }
 
 .new-btn:hover {
+    transform: scale(1.1);
     background-color: hsl(201, 79%, 66%);
 }
+
+.new-btn:active {
+    transform: scale(0.95);
+}
+
 
 .upload-btn {
     width: 90px;
@@ -240,9 +263,13 @@ body {
 }
 
 .upload-btn:hover {
+    transform: scale(1.1);
     background-color: hsl(201, 79%, 66%);
 }
 
+.upload-btn:active {
+    transform: scale(0.95);
+}
 
 .share-btn {
     width: 90px;
@@ -256,7 +283,12 @@ body {
 }
 
 .share-btn:hover {
+    transform: scale(1.1);
     background-color: hsl(201, 79%, 66%);
+}
+
+.share-btn:active {
+    transform: scale(0.95);
 }
 
 .content {
@@ -299,6 +331,12 @@ body {
     font-size: 15px;
     margin-bottom: 0px;
     line-height: 0.2px;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+    box-shadow: 6px 6px 12px #b8bfc7;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .suf-icons {
@@ -367,16 +405,43 @@ body {
     cursor: pointer;
 }
 
+.star-plus:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease;
+}
+
+.star-plus:active {
+    transform: scale(0.9);
+}
+
 .eye-plus {
     height: 20px;
     width: 20px;
     cursor: pointer;
 }
 
+.eye-plus:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease;
+}
+
+.eye-plus:active {
+    transform: scale(0.9);
+}
+
 .fork {
     height: 20px;
     width: 20px;
     cursor: pointer;
+}
+
+.fork:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease;
+}
+
+.fork:active {
+    transform: scale(0.9);
 }
 
 .ann-trend {
@@ -458,7 +523,8 @@ hr {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 0px 15px;
+    margin: -7px 15px;
+    cursor: pointer;
 }
 
 .trend-img-text img {
@@ -466,7 +532,14 @@ hr {
     width: 45px;
 }
 
+.trend-img-text:hover {
+    transform: scale(1.1) translateX(5px);
+    transition: background-color 0.3s ease;
+}
+
 .trend-text {
+    margin-top: 0px;
+    margin-bottom: 15px;
     margin-left: 20px;
     line-height: 0px;
 }
